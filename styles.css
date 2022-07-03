@@ -1,0 +1,23 @@
+
+main {
+  min-height: calc(100vh - 2rem);
+  display: grid;
+  place-items: center;
+ 
+}
+.container {
+  text-align: center;
+  font-size: 50px;
+}
+#btn{
+  font-size: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  outline: none;
+  background: #e0dada;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
