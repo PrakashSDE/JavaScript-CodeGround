@@ -10,15 +10,7 @@ const value= document.querySelector("#value");
     value.textContent = count;
   });
 
-  increase.addEventListener("click" , function(){
-    count++;
-    value.textContent = count;
-  });
-
-  reset.addEventListener("click" , function(){
-    count=0;
-    value.textContent = count;
-  });
+  
 
 
 
