@@ -97,9 +97,11 @@ const renderResults = (list) => {
 };
 
 
+
+
 //the github-API working
 
-const APIURL = "https://api.github.com/users/";
+const APIURL = "https://api.github.com/users/"; //GitHub API URL
 
 const main = document.getElementById("result");
 const form = document.getElementById("form-github");
