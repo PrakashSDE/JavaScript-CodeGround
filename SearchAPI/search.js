@@ -1,18 +1,20 @@
-//the dark mode
 
+
+//the dark mode
 var dark = document.getElementById("dark");
 dark.onclick = function myFunction() {
   var element = document.body;
   element.classList.toggle("light-theme");
   if (document.body.classList.contains("light-theme")) {
     dark.src = "moon.png";
-  } else {
+  } 
+  else {
     dark.src = "sun.png";
   }
 };
 
-// for opening text
 
+// for opening text
 const text = document.querySelector(".front");
 const stringText = text.textContent;
 const splitText = stringText.split("");
