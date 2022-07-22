@@ -138,7 +138,6 @@ function createUserCard(user) {
     `;
     main.innerHTML = cardHTML;
 }
-
 function addReposToCard(repos) {
     const reposEl = document.getElementById("repos");
 
