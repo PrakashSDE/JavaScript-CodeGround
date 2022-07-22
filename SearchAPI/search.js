@@ -1,5 +1,3 @@
-
-
 //the dark mode
 var dark = document.getElementById("dark");
 dark.onclick = function myFunction() {
@@ -40,8 +38,6 @@ function complete() {
   clearInterval(timer);
   timer = null;
 }
-
-
 
 //the wikipedia search
 const url =
