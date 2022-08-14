@@ -5,17 +5,17 @@ const value= document.querySelector("#value");
   const increase= document.querySelector(".btn_increase");
   const reset= document.querySelector(".btn_reset");
 
-  decrease.addEventListener("click" , function(){
+   decrease.addEventListener("click" , function(){
     count--;
     value.textContent = count;
   });
 
-  increase.addEventListener("click" , function(){
+   increase.addEventListener("click" , function(){
     count++;
     value.textContent = count;
   });
 
-  reset.addEventListener("click" , function(){
+   reset.addEventListener("click" , function(){
     count=0;
     value.textContent = count;
   });
