@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.bg-image {
+  
+  height:90vh;
+  background: url("https://www.motocms.com/blog/wp-content/uploads/2019/11/how-to-become-a-web-developer.jpg");
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+.container {
+  padding: 100px;
+}
+
+h1 {
+  font-size: 50px;
+}
+p {
+  color: grey;
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 10px;
+  }
+}
