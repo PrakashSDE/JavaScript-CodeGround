@@ -5,6 +5,6 @@ window.addEventListener("scroll", () => {
 });
 
 function updateImage() {
-  bgImageEl.style.opacity = 1 - window.pageYOffset / 500;
+  bgImageEl.style.pacity = 1 - window.pageYOffset / 500;
   bgImageEl.style.backgroundSize = 120- window.pageYOffset / 12 + "%";
 }
